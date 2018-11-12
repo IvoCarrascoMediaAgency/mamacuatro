@@ -1,11 +1,11 @@
 <?php
 
-    $destino="jaimeivankaya@hotmail.com";
-    $nombre = $_POST["nombre"];
-    $correo = $_POST["correo"];
-    $telefono = $_POST["telefono"];
+    $destino="cerebrodigital.info@gmail.com";
+    $nombre = $_POST["Nombre"];
+    $correo = $_POST["Correo"];
+    $telefono = $_POST["WhatsApp"];
     $mensaje = $_POST["mensaje"];
-    $contenido = "Nombre: " . $nombre . "\nTelèfono:" . "\nMensaje:" . $mensaje;
+    $contenido = "Nombre: " . $nombre . "\nCorreo:" . $correo . "\nTelèfono:" . $telefono . "\nMensaje:" . $mensaje;
     mail($destino,"Contacto", $contenido);
     
     ?>
