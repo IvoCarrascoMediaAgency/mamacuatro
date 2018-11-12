@@ -994,11 +994,11 @@
                            </div>
 
                            <form action="enviar.php" method="post">
-                              <input onclick="moverseA('reservar')" type="text"  name="Nombre" placeholder="Nombre">
-                               <input type="text"  name="WhatsApp" placeholder="WhatsApp">
-                               <input type="text"  name="Correo" placeholder="Correo">
+                              <input onclick="moverseA('reservar')" type="text"  name="Nombre" placeholder="Nombre" required>
+                               <input type="text"  name="WhatsApp" placeholder="WhatsApp" required>
+                               <input type="text"  name="Correo" placeholder="Correo" required>
                                <textarea name="mensaje" placeholder="Escribe un mensaje"></textarea>
-                              <input type="button" value="Reservar" id="boton">
+                              <input type="submit" value="Reservar" id="boton">
                            </form>
 
                        </div>
