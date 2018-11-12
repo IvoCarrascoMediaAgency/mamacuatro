@@ -1825,7 +1825,8 @@ input, textarea {
     
     border-radius: 3px;
     background: rgba(0,0,0,0.6);
-    color: white;
+	color: white;
+	border: 1px solid #7e0505;
 }
 
 input::placeholder{
@@ -1930,6 +1931,11 @@ textarea {
 	align-items: center;
 	display: grid;
 	
+}
+
+#reservarfoco{
+	display: grid;
+    align-items: center;
 }
 
 
