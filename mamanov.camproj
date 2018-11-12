@@ -1,0 +1,192 @@
+<?xml version="1.0"?>
+<Project_Data Version="8.00">
+<Project_Settings>
+<ProfileName></ProfileName>
+<ProjectWidth>851</ProjectWidth>
+<ProjectHeight>315</ProjectHeight>
+<IsCustomProject>1</IsCustomProject>
+<SavedProjectSettings>1</SavedProjectSettings>
+<LastFlashTemplate>-1</LastFlashTemplate>
+</Project_Settings>
+
+
+<AutoSaveFile>C:\Users\Google\AppData\Local\TechSmith\Camtasia Studio\8.0\Auto-Saves\Untitled469fa874.autosave.camproj</AutoSaveFile>
+
+<ProjectID>10FA4D0F-CCB1-439C-8140-327453DA20B4</ProjectID>
+
+<PowerPointProject>0</PowerPointProject>
+
+<PowerPointFilename></PowerPointFilename>
+
+
+<Project_Notes>
+</Project_Notes>
+
+<Project_MetaData>
+<Project_MetaData_Object>
+<FieldArrayKey>8</FieldArrayKey>
+<Value></Value>
+</Project_MetaData_Object>
+<Project_MetaData_Object>
+<FieldArrayKey>13</FieldArrayKey>
+<Value>2018-11-05 12:50:15 </Value>
+</Project_MetaData_Object>
+<Project_MetaData_Object>
+<FieldArrayKey>16</FieldArrayKey>
+<Value>ENU</Value>
+</Project_MetaData_Object>
+</Project_MetaData>
+
+<CSMLData>
+<GoProject id="1" version="3.0" >
+ <Project id="2" editRate="30/1" version="3.0" >
+  <Author></Author>
+  <Comment></Comment>
+  <System></System>
+  <SourceBin id="3"  >
+    <Source id="4" src="C:\Users\Google\Desktop\398535-PCOFKY-936.jpg" lastMod="20180730T112210" rect="(0,0,5638,4027)" >
+      <SourceTrack range="(0,1)" type="1" editRate="10000000/1" trackRect="(0,0,5638,4027)" sampleRate="0/1" bitDepth="24" numChannels="0" filename="" metaData="" />
+    </Source>
+    <Source id="5" src="C:\Users\Google\Desktop\Clientes\recursos diseño\fondo para plato tipico2.jpg" lastMod="20181031T144653" rect="(0,0,1024,683)" >
+      <SourceTrack range="(0,1)" type="1" editRate="10000000/1" trackRect="(0,0,1024,683)" sampleRate="0/1" bitDepth="24" numChannels="0" filename="" metaData="" />
+    </Source>
+    <Source id="6" src="C:\Users\Google\Desktop\Clientes\recursos diseño\cuynavidad.png" lastMod="20181105T180237" rect="(0,0,372,149)" >
+      <SourceTrack range="(0,1)" type="1" editRate="10000000/1" trackRect="(0,0,372,149)" sampleRate="0/1" bitDepth="32" numChannels="0" filename="" metaData="" />
+    </Source>
+    <Source id="7" src="C:\Users\Google\Desktop\Clientes\recursos diseño\fondo para plato tipico.jpg" lastMod="20181031T144626" rect="(0,0,1024,683)" >
+      <SourceTrack range="(0,1)" type="1" editRate="10000000/1" trackRect="(0,0,1024,683)" sampleRate="0/1" bitDepth="24" numChannels="0" filename="" metaData="" />
+    </Source>
+  </SourceBin>
+  <Timeline id="8"  >
+   <Attributes>
+    <Attribute id="9" value="851" name="width"/>
+    <Attribute id="10" value="315" name="height"/>
+    <Attribute id="11" value="(255,255,255,255)" name="backgroundColor"/>
+   </Attributes>
+    <GenericMixer id="12"  name="Unified Mixer">
+     <MetaData>
+      <entry key="MixerType" val="TimelineMixer"/>
+     </MetaData>
+     <Tracks>
+      <GenericTrack id="13"  >
+       <Attributes>
+        <Attribute id="14" value="" name="ident"/>
+       </Attributes>
+       <MetaData>
+        <entry key="IsLocked" val="False"/>
+        <entry key="WinTrackHeight" val="62"/>
+       </MetaData>
+       <Medias>
+        <IMFile id="15" start="0" duration="150" scalar="1/1" mediaStart="0/1" mediaDuration="1/1" trackNumber="0" src="7" trimStartSum="0/1" >
+         <Transformer>
+          <VectorParam id="16"  name="translation">
+           <InterpolatingParam id="17" interp="linr"  time="-9999999/1" value="-47.465875879654853" leadInLength="0/1"  />
+           <InterpolatingParam id="18" interp="linr"  time="-9999999/1" value="-18.839679624603388" leadInLength="0/1"  />
+           <InterpolatingParam id="19" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+          </VectorParam>
+          <VectorParam id="20"  name="rotation">
+           <InterpolatingParam id="21" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+           <InterpolatingParam id="22" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+           <InterpolatingParam id="23" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+          </VectorParam>
+          <VectorParam id="24"  name="shear">
+           <InterpolatingParam id="25" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+           <InterpolatingParam id="26" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+           <InterpolatingParam id="27" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+          </VectorParam>
+          <VectorParam id="28"  name="scale">
+           <InterpolatingParam id="29" interp="linr"  time="-9999999/1" value="0.69759941076929066" leadInLength="0/1"  />
+           <InterpolatingParam id="30" interp="linr"  time="-9999999/1" value="0.64612763657585437" leadInLength="0/1"  />
+           <InterpolatingParam id="31" interp="linr"  time="-9999999/1" value="1" leadInLength="0/1"  />
+          </VectorParam>
+          <VectorParam id="32"  name="anchor">
+           <InterpolatingParam id="33" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+           <InterpolatingParam id="34" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+           <InterpolatingParam id="35" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+          </VectorParam>
+         </Transformer>
+         <Parameters>
+          <VectorParam id="36"  name="sourceCrop">
+           <InterpolatingParam id="37" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+           <InterpolatingParam id="38" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+           <InterpolatingParam id="39" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+           <InterpolatingParam id="40" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+          </VectorParam>
+          <VectorParam id="41"  name="geometryCrop">
+           <InterpolatingParam id="42" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+           <InterpolatingParam id="43" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+           <InterpolatingParam id="44" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+           <InterpolatingParam id="45" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+          </VectorParam>
+          <InterpolatingParam id="46" interp="linr"  time="-9999999/1" value="1" leadInLength="0/1"  name="opacity"/>
+         </Parameters>
+         <Attributes>
+          <Attribute id="47" value="" name="ident"/>
+         </Attributes>
+         <MetaData>
+          <entry key="WinSubProjectDisplayName" val=""/>
+         </MetaData>
+         <ExtraData>
+          <Entry key="ZoomPanBin">
+           <ZoomPanBin id="48"  >
+            <ZoomPanKeyframes>
+             <ZoomPanKeyframe id="49" timeRangeEnd="-9999999/1" timeRangeDuration="0/1" interpolaterName="linr"  />
+            </ZoomPanKeyframes>
+           </ZoomPanBin>
+          </Entry>
+         </ExtraData>
+        </IMFile>
+       </Medias>
+      </GenericTrack>
+      <GenericTrack id="50"  >
+       <Attributes>
+        <Attribute id="51" value="" name="ident"/>
+       </Attributes>
+       <MetaData>
+        <entry key="IsLocked" val="False"/>
+        <entry key="WinTrackHeight" val="62"/>
+       </MetaData>
+       <Medias>
+       </Medias>
+      </GenericTrack>
+     </Tracks>
+    </GenericMixer>
+   <CaptionAttributes id="52"  >
+    <Attribute id="53" value="1" name="captionsEnabled"/>
+    <Attribute id="54" value="Arial" name="captionsFontName"/>
+    <Attribute id="55" value="11" name="captionsFontSize"/>
+    <Attribute id="56" value="(0,0,0,255)" name="captionsBackgroundColor"/>
+    <Attribute id="57" value="(255,255,255,255)" name="captionsForegroundColor"/>
+    <Attribute id="58" value="en" name="lang"/>
+    <Attribute id="59" value="0" name="captionsAlignment"/>
+    <Attribute id="60" value="1" name="captionsDefaultFontSize"/>
+    <Attribute id="61" value="0.5" name="captionsOpacity"/>
+    <Attribute id="62" value="1" name="captionsBackgroundEnabled"/>
+    <Attribute id="63" value="1" name="captionsBackgroundOnlyAroundText"/>
+   </CaptionAttributes>
+   <Parameters>
+    <VectorParam id="64"  name="eyePosition">
+     <InterpolatingParam id="65" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+     <InterpolatingParam id="66" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+     <InterpolatingParam id="67" interp="linr"  time="0/1" value="3000" leadInLength="0/1"  />
+    </VectorParam>
+    <VectorParam id="68"  name="eyeLookAtPosition">
+     <InterpolatingParam id="69" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+     <InterpolatingParam id="70" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+     <InterpolatingParam id="71" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+    </VectorParam>
+    <VectorParam id="72"  name="eyeUpVector">
+     <InterpolatingParam id="73" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+     <InterpolatingParam id="74" interp="linr"  time="0/1" value="1" leadInLength="0/1"  />
+     <InterpolatingParam id="75" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+    </VectorParam>
+    <InterpolatingParam id="76" interp="linr"  time="0/1" value="0.104903691" leadInLength="0/1"  name="fov"/>
+    <InterpolatingParam id="77" interp="linr"  time="0/1" value="1.5" leadInLength="0/1"  name="nearClipDistance"/>
+    <InterpolatingParam id="78" interp="linr"  time="0/1" value="6000" leadInLength="0/1"  name="farClipDistance"/>
+   </Parameters>
+  </Timeline>
+ </Project>
+</GoProject>
+</CSMLData>
+
+</Project_Data>
