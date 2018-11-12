@@ -1904,7 +1904,7 @@ textarea {
 }
 
 .m3 a img{
-	width: 300px;
+	width: 250px;
 }
 
 .m4 {
@@ -1934,6 +1934,17 @@ textarea {
 }
 
 #reservarfoco{
+	display: grid;
+    align-items: center;
+}
+
+#reservarfoco{
+	
+
+	display: none;
+}
+
+#reservarfoco:target{
 	display: grid;
     align-items: center;
 }
