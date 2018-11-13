@@ -7,7 +7,7 @@ header('Content-type: application/json');
 require 'php-mailer/class.phpmailer.php';
 
 // Your email address
-$to = 'enrique7mc@gmail.com';
+$to = 'cerebrodigital.info@gmail.com';
 
 $subject = $_POST['subject'];
 
