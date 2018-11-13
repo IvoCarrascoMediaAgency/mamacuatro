@@ -1728,24 +1728,47 @@ input{
 	grid-area: comida;
 }
 
-.face{
-	height: 50vh
-}
+
 .mapa{
-	height: 50vh;
+	height: 300px;
 }
 
 .contacto{
-	width: 90%;
-	height: 600px;
+	width: 100%;
+	height: 100%;
 	margin: 0 auto;
 	display: grid;
 	align-content: center;
 }
 
+.contactoh2{
+	background:#7e0505;
+	
+}
+
+.contactoh2 h2{
+	color: #fadc1a;
+}
+
 .contactoul{
 	margin-bottom: 40px;
 	text-align: center;
+	background: #7e0505;
+
+}
+
+
+.contactoul li p{
+	color: white;
+}
+
+.contactoul li p strong{
+	color:#666;
+}
+
+.contactoul li p a{
+	text-decoration: none;
+	color: #fadc1a;
 }
 
 .contacto ul li{
@@ -1849,13 +1872,21 @@ textarea {
 	margin: 0 auto;
 	display: grid;
 	align-content: center;
-	height: 70vh;
+	height: 100%;
+}
+
+.foodies span{
+	margin: 0 auto 20px auto;
+	font-size: 1em;
+	font-weight: bold;
+	color: #7e0505;
+
 }
 
 .foodh2 h2{
 	text-align: center;
 	width: 90%;
-	margin: 0 auto  20px auto;
+	margin: 20px auto  20px auto;
 
 
 }
@@ -1904,7 +1935,7 @@ textarea {
 }
 
 .m3 a img{
-	width: 2422@@0px;
+	width: 240px;
 }
 
 .m4 {
@@ -1951,16 +1982,16 @@ textarea {
 
 
 .trip{
-	height: 50vh;
-	width: 90%;
-	margin: 0 auto;
+	height: 500px;
+	width: 340px;
+	margin: 0 auto 15px auto;
 }
 
 
 .face{
-	height: 50vh;
-	width: 90%;
-	margin: 0 auto;
+	height: 500px;
+	width: 340px;
+	margin: 0 auto 15px auto;
 
 }
 
@@ -1970,8 +2001,7 @@ textarea {
 
 footer{
 	width: 100%;
-	height: 300px;
-	background: #4d148c;
+	height: 100%;
 }
 
 #boton{
@@ -1980,6 +2010,9 @@ footer{
 	border: 1px solid #7e0505;
 	width: 100px;
 	font-weight: bold;
+	align-items: center;
+	display: grid;
+	margin: 0 auto;
 
 }
 
@@ -1990,6 +2023,65 @@ footer{
 	border: 1px solid #fadc1a;
 }
 
+
+.reservasredes{
+	display: grid;
+	align-items: center;
+	margin: 0 auto;
+
+}
+
+.reservasredes p{
+	text-align: center;
+	width: 90%;
+	margin: 0 auto;
+
+}
+
+
+
+
+.reservasredes .btnprueba1{
+	
+    border-radius: 3px;
+    background: #fadc1a;
+    border: 1px solid #7e0505;
+	cursor: pointer;
+	text-decoration: none;
+	color: #7e0505;padding: 5px 0;
+	display: grid;
+	justify-content: center;
+	width: 200px;
+	font-weight: bold;
+	margin: 10px auto;
+   
+}
+
+.reservasredes .btnprueba1:hover{
+	border: 1px solid #fadc1a;
+}
+
+.reservasredes. a:hover{
+	color:#fadc1a;
+	background: #7e0505;
+	
+	
+	
+}
+
+.reservasredes .iconosocial{
+	display: flex;
+	margin: 10px auto;
+
+}
+.reservasredes .logofinalm h2{
+	margin: 10px auto;
+}
+
+.diseño{
+	font-size: 0.8em;
+	text-align: center;
+}
 
 
 
