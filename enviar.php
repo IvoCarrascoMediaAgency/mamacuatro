@@ -89,10 +89,14 @@ $mail->SMTPOptions = array(
 
 $estadoEnvio = $mail->Send(); 
 if($estadoEnvio){
-    header("Location:https://ivocarrascomediaagency.github.io/mamacuatro/")
+    header("Location:https://ivocarrascomediaagency.github.io/mamacuatro/");
+} else {
     echo "El correo fue enviado correctamente.";
+    exit();
+}
 } else {
     echo "Ocurri� un error inesperado.";
+    exit();
 }
 
 
