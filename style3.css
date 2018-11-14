@@ -2061,7 +2061,7 @@ footer{
 	border: 1px solid #fadc1a;
 }
 
-.reservasredes. a:hover{
+.reservasredes a:hover{
 	color:#fadc1a;
 	background: #7e0505;
 	
@@ -2125,9 +2125,9 @@ footer{
    }
 
  
-   white{
+   /* white{
 	background: #ede7f3;
-   }
+   } */
 
    /* new js para cambiar color al hacer scroll el menu */
 
