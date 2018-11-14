@@ -7,5 +7,5 @@
     $mensaje = $_POST["mensaje"];
     $contenido = "Nombre: " . $nombre . "\nCorreo:" . $correo . "\nTelèfono:" . $telefono . "\nMensaje:" . $mensaje;
     mail($destino,"Contacto", $contenido);
-    header("Location:https://schoolgirlish-therm.000webhostapp.com");
+    header("Location:https://schoolgirlish-therm.000webhostapp.com/#foodies");
     ?>
