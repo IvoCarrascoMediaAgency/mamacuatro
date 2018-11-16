@@ -513,7 +513,7 @@ p{
 
 .containercontactul li{
 	list-style-type: none;
-	display: flex;
+	
 
 }
 
@@ -2337,7 +2337,7 @@ height: 55px;
 
 
 	.containercontactul{
-		grid-template-columns: auto auto;
+		grid-template-columns: auto auto auto;
 		width: 100%; 
 		max-width: 1024px; 
 		margin:  0 auto;
@@ -2358,7 +2358,6 @@ height: 55px;
 
 
 
-	
 
 	.menutop li a{
 		text-decoration: none;
@@ -2562,6 +2561,62 @@ height: 55px;
 	
 	}
 
+
+	/* history */
+.historia{
+	height: 100%;
+	display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+	
+.history1{
+	height: 500px;
+	display: grid;
+	align-content: center;
+}
+
+
+.history2{
+	height: 500px;
+	position: relative;
+	background: rgba(0,0,0,.5);
+	display: grid;
+	
+}
+
+
+
+
+.history2 .btnprueba1{
+	position: absolute;
+    display: grid;
+    top: 50%;
+    right: 0;
+    left: 0;
+    width: 200px;
+	margin: 0 auto;
+	z-index: 10;
+}
+
+.history1-1{
+	margin: 20px auto;
+}
+
+
+/* Menú */
+
+.textmenu {
+	width: 50%;
+}
+
+.menumama{
+	margin: 30px auto;
+}
+
+
+.modal:target{
+	z-index: 11000;
+}
 
 }
 }
