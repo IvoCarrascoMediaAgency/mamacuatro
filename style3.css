@@ -1731,18 +1731,22 @@ input{
 
 .mapa{
 	height: 300px;
+    width: 95%;
+    margin: auto;
 }
 
 .contacto{
 	width: 100%;
 	height: 100%;
 	margin: 0 auto;
-	display: grid;
-	align-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	
 }
 
 .contactoh2{
 	background:#7e0505;
+	width: 100%;
 	
 }
 
@@ -1870,29 +1874,39 @@ textarea {
 .foodies{
 	width: 100%;
 	margin: 0 auto;
-	display: grid;
-	align-content: center;
+	
+	
 	height: 100%;
 	
 }
 
 .food2{
-	display: grid;
-	grid-template-columns: auto auto;
+	display: flex;
+	
+    
+  
+  
+    flex-wrap: wrap;
+    justify-content: space-around;
+	
 }
 
 .foodies span{
 	margin: 0 auto 20px auto;
-	font-size: 1em;
+	font-size: 1.5em;
 	font-weight: bold;
 	color: #7e0505;
+	text-align: center;
+	display: block;
 
 }
+
 
 .foodh2 h2{
 	text-align: center;
 	width: 90%;
 	margin: 20px auto  20px auto;
+	
 
 
 }
@@ -2057,23 +2071,23 @@ footer{
 	color: #7e0505;padding: 5px 0;
 	display: grid;
 	justify-content: center;
-	width: 200px;
+	
 	font-weight: bold;
+
 	margin: 10px auto;
+    display: inline-block;
+    padding: 0.5em 1.5em;
+    transition: 0.5s;
    
 }
 
 .reservasredes .btnprueba1:hover{
 	border: 1px solid #fadc1a;
+	background: #7e0505;
+	color: #fadc1a;
 }
 
-.reservasredes a:hover{
-	color:#fadc1a;
-	background: #7e0505;
-	
-	
-	
-}
+
 
 .reservasredes .iconosocial{
 	display: flex;
@@ -2084,9 +2098,16 @@ footer{
 	margin: 10px auto;
 }
 
+
+.reservasredes figure{
+	justify-content: center;
+	display: grid;
+}
+
 .diseño{
 	font-size: 0.8em;
 	text-align: center;
+	background: rgba(0,0,0,.1);
 }
 
 
