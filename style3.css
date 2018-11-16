@@ -54,7 +54,6 @@ p{
 .marca{
 	color: white;
 	text-shadow: 1px 2px #444;
-
 }
 .marca:hover{
 	color: white;
@@ -1987,16 +1986,27 @@ textarea {
 	
 }
 
+.modal24{
+	display: grid;
+	width: 100%;
+	height: 100%;
+}
+
+.modal23{
+	background: rgba(0,0,0,0.7);
+    display: grid;
+    width: 100vh;
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+}
+
 #reservarfoco{
 	display: grid;
     align-items: center;
 }
 
-#reservarfoco{
-	
 
-	display: none;
-}
 
 #reservarfoco:target{
 	display: grid;
@@ -2518,47 +2528,23 @@ height: 55px;
 @media screen and (min-width: 950px){
 
 
-
-
-
     body{
 		display: grid;
 			
 	}
 
-
-
-	
-
-
-
-
-
-	
-
-
-
-
-
 	.logomenu ul li {
 		font-size: 1.1em;
 	}
-
-
 
 	.logofinal{
 		text-align: center;
 	}
 	
-
-
  /* MAIN */
 
 	.portadamovil1{
-	
 			grid-template-rows: auto;
-			
-	
 	}
 
 
@@ -2580,12 +2566,8 @@ height: 55px;
 	height: 500px;
 	position: relative;
 	background: rgba(0,0,0,.5);
-	display: grid;
-	
+	display: grid;	
 }
-
-
-
 
 .history2 .btnprueba1{
 	position: absolute;
@@ -2612,7 +2594,6 @@ height: 55px;
 .menumama{
 	margin: 30px auto;
 }
-
 
 .modal:target{
 	z-index: 11000;
