@@ -1732,7 +1732,7 @@ input{
 .mapa{
 	height: 300px;
     width: 95%;
-    margin: auto;
+    margin: 20px auto;
 }
 
 .contacto{
@@ -1766,8 +1766,9 @@ input{
 	color: white;
 }
 
-.contactoul li p strong{
-	color:#666;
+.contactoul li p span{
+	color: white;
+    text-decoration: underline;
 }
 
 .contactoul li p a{
@@ -1785,7 +1786,7 @@ input{
 
 .contacto h2{
 	width: 90%;
-	margin:0 auto 20px auto;
+	margin:20px auto 20px auto;
 	text-align: center;
 
 }
@@ -2107,7 +2108,7 @@ footer{
 .diseño{
 	font-size: 0.8em;
 	text-align: center;
-	background: rgba(0,0,0,.1);
+	background: rgba(0,0,0,.2);
 }
 
 
