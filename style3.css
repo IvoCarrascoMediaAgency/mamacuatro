@@ -582,7 +582,8 @@ p{
     background: #fadc1a;
     border: 1px solid #7e0505;
     cursor: pointer;
-    z-index: 9999;
+	z-index: 9999;
+	margin: 20px 0 0 0;
 }
 
 .btnprueba1:hover{
@@ -1616,6 +1617,7 @@ input{
 	display: none;
 }
 
+
 .modalesp{
 	margin-bottom: 20px;
 }
@@ -1643,7 +1645,7 @@ input{
 	color: #fadc1a;
 	font-size: 1.5em;
 	text-align: center;
-	margin: 15px 0;
+	margin: 60px 0 10px 0;
 }
 .ulmodaltext{
 	text-align: left;
