@@ -2599,5 +2599,42 @@ height: 55px;
 	z-index: 11000;
 }
 
+
+
+.orders{
+	display:grid;
+	grid-template-columns: 50% 50%;
+
+}
+
+.reservas{
+	order: -2;
+	grid-column: 1/2;
+    width: 100%;
+}
+
+.contacto{
+	display: grid;
+}
+
+.foodies{
+	width: 100%;
+    margin: 0 auto;
+   
+    overflow: hidden;
+    grid-column: -3/3;
+
+}
+
+.mapa{
+
+    width: 95%;
+    margin: 0 auto;
+    order: -1;
+    grid-column: -1/2;
+    height: 100%;
+
+}
+
 }
 }
