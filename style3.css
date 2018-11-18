@@ -2639,6 +2639,9 @@ height: 55px;
 	display:grid;
 	grid-template-columns: 50% 50%;
 
+    align-items: center;
+    margin: 0 auto;
+
 }
 
 .reservas{
