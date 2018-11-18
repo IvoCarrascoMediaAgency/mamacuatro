@@ -2133,8 +2133,9 @@ footer{
 
 
 .reservasredes .iconosocial{
-	display: flex;
-	margin: 10px auto;
+	display: grid;
+    margin: 10px auto;
+    grid-template-columns: auto auto auto;
 
 }
 .reservasredes .logofinalm h2{
