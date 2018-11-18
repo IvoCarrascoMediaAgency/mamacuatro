@@ -40,7 +40,7 @@ p{
     width: 100%;
     top: 0;
     z-index: 28;
-    position: fixed;
+    /* position: fixed; */
 }
 
 
@@ -2090,7 +2090,7 @@ footer{
 .reservasredes{
 	display: grid;
 	align-items: center;
-	margin: 0 auto;
+	/* margin: 0 auto; */
 
 }
 
