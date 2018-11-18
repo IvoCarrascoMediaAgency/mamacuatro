@@ -2653,6 +2653,7 @@ height: 55px;
 
 .contacto{
 	display: grid;
+    grid-column: -3/2;
 }
 
 .foodies{
@@ -2671,6 +2672,14 @@ height: 55px;
     order: -1;
     grid-column: -1/2;
     height: 100%;
+
+}
+
+
+.reservasredes{
+	width: 100%;
+    margin: 0 auto;
+    grid-column: 2/3;
 
 }
 
