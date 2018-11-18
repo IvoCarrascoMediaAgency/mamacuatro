@@ -1837,7 +1837,7 @@ input{
 .reservas{
 	background: url(img/reservas.png);
 	
-    display: block;
+    display: grid;
     align-items: center;
     background-repeat: no-repeat;
     width: 100%;
