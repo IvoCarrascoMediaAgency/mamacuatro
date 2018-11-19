@@ -1,6 +1,6 @@
 <?php
 
-    $destino="cerebrodigital.info@gmail.com";
+    $destino="reservas@restaurantemamaclorinda.com";
     $dia = $_POST["dia"];
     $hora = $_POST["hora"];
     $comensales = $_POST["comensales"];
