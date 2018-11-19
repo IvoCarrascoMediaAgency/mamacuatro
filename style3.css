@@ -857,7 +857,7 @@ p{
 	height: 100%;
 	/* background: linear-gradient(to bottom, rgba(255,255,255,.4) 30%, rgba(126,5,5,.5) 100%); */
 	
-	animation: animate 20s linear infinite alternate;
+	animation: animate 20s linear infinite reverse;
 	
 	
 }
@@ -981,7 +981,7 @@ p{
 
 
 .containers .slider  .slide3{
-	background: url(img/locro-de-queso.png);
+	background: url(img/locrodequeso2.png);
 	background-size: 100vw;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -989,7 +989,7 @@ p{
 }
 
 .containers2 .slider2  .slide3-3{
-	background: url(img/locro-de-queso.png);
+	background: url(img/locrodequeso2.png);
 	background-size: 100vw;
 	background-position: center;
 	background-repeat: no-repeat;
