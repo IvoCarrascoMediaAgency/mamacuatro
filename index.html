@@ -996,18 +996,31 @@
                                         <div class="reservaslayer">
                                                 <div class="reservastext">
                                                     <h2>Reservaciones</h2>
+                                                    
+                                                    
                                                 </div>
 
                                                 <form action="enviar1.php" method="post">
-                                                    <input onclick="moverseA('reservar')" type="text"  name="Nombre" placeholder="Nombre" required>
+                                                        <p>De Lunes a Domingo, abierto desde las 12h00</p>
+                                                       
+
+                                                    <div class="form2">
+                                                        <input onclick="moverseA('reservar')" type="date" name="dia" required autofocus>
+                                                        <input type="time" value="12:00"name="hora" placeholder="hh:mm" required>
+                                                        <input type="number" name="comensales" placeholder="#Personas" min="1" max="100" required>
+                                                    </div>
+
+                                                    <input  type="text"  name="Nombre" placeholder="Nombre" required>
                                                     <input type="text"  name="WhatsApp" placeholder="WhatsApp" required>
                                                     <input type="text"  name="Correo" placeholder="Correo" required>
                                                     <textarea name="mensaje" placeholder="Escribe un mensaje"></textarea>
                                                     <input type="submit" value="Reservar" id="boton">
+                                                    <a class="fotofoodie" href="https://goo.gl/cdzLMf" target="_blank" rel="noopener noreferrer"><span>Foto:</span> Tim Crawley</a>
+
                                                 </form>
 
+
                                          </div>
-                                             <a class="fotofoodie" href="https://goo.gl/cdzLMf" target="_blank" rel="noopener noreferrer"><span>Foto:</span> Tim Crawley</a>
 
                                     </div>
 

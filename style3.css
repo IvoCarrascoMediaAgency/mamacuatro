@@ -40,7 +40,7 @@ p{
     width: 100%;
     top: 0;
     z-index: 28;
-    /* position: fixed; */
+    position: fixed;
 }
 
 
@@ -813,7 +813,7 @@ p{
 	overflow: hidden;
 	width: 100%;
 	height: 100vh;
-	top: -150px;
+	
 
 }
 
@@ -1414,7 +1414,7 @@ nav li{
 .history1{
 	height: 300px;
 	display: grid;
-	margin-top: -30px;
+	
 }
 
 .history1 p{
@@ -1432,12 +1432,12 @@ nav li{
 .history2 .btnprueba1{
 	position: absolute;
     display: grid;
-    top: 70%;
+    top: 50%;
     right: 0;
     left: 0;
     width: 200px;
-	margin: 0 auto;
-	z-index: 10;
+    margin: 0 auto;
+    z-index: 10;
 }
 
 .history1-1{
@@ -1634,11 +1634,11 @@ input{
     margin-right: auto;
     left: 0;
     right: 0;
-    height: 30px;
+    height: 35px;
     width: 140px;
     margin-top: 20%;
     background: #fadc1a;
-    line-height: 30px;
+    line-height: 35px;
     background: linear-gradient(to bottom, #fcea75 0%,#fadc1a 100%);
     border: 1px solid #7e0505;
     -webkit-border-radius: 5px;
@@ -1660,11 +1660,11 @@ input{
     display: grid;
     /* margin-left: auto;
     margin-right: auto; */
-    height: 25px;
+    height: 35px;
     width: 100px;
     /* margin-top: 20%; */
     background: #fadc1a;
-    line-height: 25px;
+    line-height: 35px;
     background: linear-gradient(to bottom, #fcea75 0%,#fadc1a 100%);
     border: 1px solid #7e0505;
     -webkit-border-radius: 3px;
@@ -1908,7 +1908,7 @@ input{
 	background: url(img/reservas.png);
 	
     display: grid;
-    align-items: center;
+
     background-repeat: no-repeat;
     width: 100%;
 	background-size: cover;
@@ -1917,44 +1917,66 @@ input{
 	
 }
 
+.reservaslayer{
+	display: grid;
 
+}
+
+.form2{
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
 
 .reservaslayer h2{
 	text-align: center;
     color: #fadc1a;
-    padding: 5px;
+
     border-radius: 3px;
-    margin-top: -30px;
+  
     font-size: 2em;
     text-shadow: 1px 2px #444;
 }
 
 .reservastext{
-	margin: 20px auto;
+	margin-top: 30px;
+	text-align: center;
+	
+	
 }
+
 
 form{
 	width: 90%;
 	margin: 0 auto;
-	/* display: grid; */
-	/* justify-items: center; */
-	margin-top: 250px;
-	max-width: 400px;
+
+	
+	max-width: 450px;
 	overflow:hidden;
 	height: 100%;
+	margin-bottom: -190px;
 
 }
 
 input, textarea {
 	width: 100%;
-    margin-bottom: 20px;
-    padding: 7px;
+    margin-bottom: 15px;
+    padding: 5px;
     font-size: 1em;
     
     border-radius: 3px;
     background: rgba(0,0,0,0.6);
 	color: white;
 	border: 1px solid #7e0505;
+}
+form p{
+	color: #fadc1a;
+	text-align: center;
+	margin-bottom: 10px;
+	text-shadow: 1px 1px #444;
+}
+
+.form2 input{
+	color: rgba(255,255,255,.6)
 }
 
 input::placeholder{
@@ -2018,6 +2040,7 @@ textarea {
 	text-align: right;
 	text-decoration: none;
 	font-style: italic;
+	margin-right: 20px;
 }
 
 .fotofoodie span{
@@ -2160,7 +2183,7 @@ footer{
 .reservasredes{
 	display: grid;
 	align-items: center;
-	/* margin: 0 auto; */
+	margin-bottom: 20px;
 
 }
 
@@ -2391,13 +2414,13 @@ footer{
 
 
 
-
+/* VErificar antes de borrar
 	.container {
 		background: rgba(255,255,255,1);
 background: linear-gradient(to right, transparent 0%, rgba(126,5,5,1) 76%, rgba(126,5,5,1) 100%);
 box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.5);
 height: 55px;
-	}
+	} */
 
 	.container2{
 	    width: 80%;
@@ -2674,16 +2697,7 @@ height: 55px;
 	display: grid;	
 }
 
-.history2 .btnprueba1{
-	position: absolute;
-    display: grid;
-    top: 50%;
-    right: 0;
-    left: 0;
-    width: 200px;
-	margin: 0 auto;
-	z-index: 10;
-}
+
 
 .history1-1{
 	margin: 20px auto;

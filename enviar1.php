@@ -1,6 +1,9 @@
 <?php
 
     $destino="cerebrodigital.info@gmail.com";
+    $dia = $_POST["dia"];
+    $hora = $_POST["hora"];
+    $comensales = $_POST["comensales"];
     $nombre = $_POST["Nombre"];
     $correo = $_POST["Correo"];
     $telefono = $_POST["WhatsApp"];
