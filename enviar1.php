@@ -8,7 +8,7 @@
     $correo = $_POST["Correo"];
     $telefono = $_POST["WhatsApp"];
     $mensaje = $_POST["mensaje"];
-    $contenido = "Nombre: " . $nombre . "\nCorreo:" . $correo . "\nTelèfono:" . $telefono . "\nMensaje:" . $mensaje;
+    $contenido = "dia" . $dia . "\nhora" . $hora . "\ncomensales" . $comensales . "\nNombre: " . $nombre . "\nCorreo:" . $correo . "\nTelèfono:" . $telefono . "\nMensaje:" . $mensaje;
     mail($destino,"Contacto", $contenido);
    
     header("Location:https://schoolgirlish-therm.000webhostapp.com/gracias.html");
