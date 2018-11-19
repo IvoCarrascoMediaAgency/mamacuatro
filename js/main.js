@@ -50,6 +50,10 @@ function moverseA(reservar) {
 }
 
 
+$('.menu, .menumovil2').on('click', function(){ 
+  $('.menu').toggleClass('iconnone');
+})
+
 // $('.menu').scroll(function(){
 //   $(this).scrollTop().addClass('colormenu3');
 // })

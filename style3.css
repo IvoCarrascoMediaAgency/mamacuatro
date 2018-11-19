@@ -88,7 +88,31 @@ p{
 	display: grid;
 	grid-template-columns: auto;
 	align-items: center;
+	justify-content: center;
 }
+
+.menu .icon-mas{
+	font-size: 2em;
+	transform:rotate(90deg);
+	-ms-transform:rotate(90deg); /* IE 9 */
+	-webkit-transform:rotate(90deg);
+	color:#7e0505;
+	transition: all 1s;
+
+}
+
+
+
+
+.iconnone{
+	transform:rotate(90deg);
+	-ms-transform:rotate(90deg); /* IE 9 */
+	-webkit-transform:rotate(90deg);
+	transition: all 1s;
+
+}
+
+
 
 /* menu flotante  movil color menu2 */
 .colormenu2{
@@ -203,9 +227,35 @@ p{
 	margin:30px auto 0 auto;
 	display: grid;
 	align-items: center;
+	grid-gap: 5px;
 
 
 }
+
+
+.logofinalm2{
+	margin:20px auto 0 auto;
+	display: grid;
+	align-items: center;
+	grid-gap: 10px;
+
+
+}
+
+.reservasredes{
+	display: grid;
+    align-items: center;
+   
+    grid-gap: 10px;
+}
+
+
+
+.logofinalm2 figure img{
+	
+	height: 90px;
+}
+
 .logofinalm a{
 	text-decoration: none;
     font-style: italic;
@@ -586,7 +636,7 @@ p{
     background: #fadc1a;
     border: 1px solid #7e0505;
     cursor: pointer;
-	z-index: 9999;
+	z-index: 28;
 	margin: 20px 0 0 0;
 }
 
@@ -1296,7 +1346,21 @@ nav li{
 	
 }
 
+.iconosocial2{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	justify-content: center;
+	grid-gap: 10px;
+}
 
+.iconosocial2 a{
+	text-decoration: none;
+	color: black;
+}
+
+.iconosocial2 a span{
+	font-size: 2em;
+}
 
 .iconosocial .icon-whatsapp{
 	color:white;
