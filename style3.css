@@ -48,13 +48,6 @@ p{
 /*CABECERA  */
 
 
-.orders{
-	display:grid;
-	grid-template-columns: auto;
-
-   
-}
-
 
 .marca{
 	color: white;
@@ -1904,6 +1897,15 @@ input{
 	display: grid;
 	margin: 0 auto;
 }
+
+
+.orders{
+	display:grid;
+	grid-template-columns: auto;
+
+   
+}
+
 
 .reservas{
 	background: url(img/reservas.png);
