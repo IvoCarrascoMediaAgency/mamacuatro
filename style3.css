@@ -1927,7 +1927,7 @@ input{
 
 .form2{
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 40% 30% 30%;
 }
 
 .reservaslayer h2{
