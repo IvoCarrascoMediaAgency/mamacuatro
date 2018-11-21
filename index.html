@@ -996,18 +996,29 @@
                                         <div class="reservaslayer">
                                                 <div class="reservastext">
                                                     <h2>Reservaciones</h2>
+                                                    <p>De Lunes a Domingo, abierto desde las 12h00</p>
                                                     
                                                     
                                                 </div>
 
                                                 <form action="enviar1.php" method="post">
-                                                        <p>De Lunes a Domingo, abierto desde las 12h00</p>
+                                                        
                                                        
 
                                                     <div class="form2">
-                                                        <input  type="date"  name="dia" required>
-                                                        <input type="time" value="12:00"name="hora" required>
-                                                        <input type="number" name="comensales" placeholder="#Personas" min="1" max="100" required>
+                                                        <div class="date1">
+                                                            <span>Fecha:</span>
+                                                            <input  type="date"  name="dia" required>
+                                                        </div>
+                                                        <div class="date1">
+                                                                <span>Hora:</span>
+                                                            <input type="time" value="12:00"name="hora" required>
+                                                        </div>
+
+                                                        <div class="date1">
+                                                            <span>N°Personas:</span>
+                                                            <input type="number" name="comensales" placeholder="1" min="1" max="100" required>
+                                                        </div>
                                                     </div>
 
                                                     <input  type="text"  name="Nombre" placeholder="Nombre" required>

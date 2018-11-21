@@ -1536,6 +1536,17 @@ input{
 	overflow: hidden;
 }
 
+.date1 input{
+	height: 30px;
+}
+
+.date1 span{
+	color: white;
+	font-size: 0.8em;
+	background: rgba(0,0,0,0.5)
+}
+
+
 .textmenu{
 	width: 90%;
 	margin: 0 auto;
@@ -1943,21 +1954,20 @@ input{
 .reservastext{
 	margin-top: 30px;
 	text-align: center;
-	
-	
 }
-
+.reservastext p{
+	color: #fadc1a;
+	margin-top: 10px;
+    text-shadow: 1px 1px #444;
+}
 
 form{
 	width: 90%;
 	margin: 0 auto;
-
-	
 	max-width: 450px;
 	overflow:hidden;
 	height: 100%;
-	margin-bottom: -190px;
-
+	margin-bottom: -175px;
 }
 
 input, textarea {
@@ -1965,7 +1975,6 @@ input, textarea {
     margin-bottom: 15px;
     padding: 5px;
     font-size: 1em;
-    
     border-radius: 3px;
     background: rgba(0,0,0,0.6);
 	color: white;
@@ -2044,6 +2053,7 @@ textarea {
 	text-decoration: none;
 	font-style: italic;
 	margin-right: 20px;
+	text-shadow: 1px 1px #444;
 }
 
 .fotofoodie span{
