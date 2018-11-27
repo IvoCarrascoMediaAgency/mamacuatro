@@ -2339,6 +2339,16 @@ textarea {
 	text-align: justify;
 }
 
+.mensajesatis span{
+	font-style: italic;
+	margin: 0;
+	font-size: 1em;
+    font-weight: normal;
+    color: #666;
+    text-align: center;
+	display: inline-block;
+}
+
 .opinionsatis{
 	margin: 5px auto;
 }
