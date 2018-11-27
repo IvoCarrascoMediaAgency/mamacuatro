@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?781lyc');
-  src:  url('fonts/icomoon.eot?781lyc#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?781lyc') format('truetype'),
-    url('fonts/icomoon.woff?781lyc') format('woff'),
-    url('fonts/icomoon.svg?781lyc#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?l838gh');
+  src:  url('fonts/icomoon.eot?l838gh#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?l838gh') format('truetype'),
+    url('fonts/icomoon.woff?l838gh') format('woff'),
+    url('fonts/icomoon.svg?l838gh#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -119,6 +119,12 @@
 .icon-idioma:before {
   content: "\e9ca";
 }
+.icon-starb:before {
+  content: "\e9d7";
+}
+.icon-star:before {
+  content: "\e9d9";
+}
 .icon-x:before {
   content: "\ea0f";
 }
@@ -133,6 +139,12 @@
 }
 .icon-transa3:before {
   content: "\ea30";
+}
+.icon-tripadvisor:before {
+  content: "\ea54";
+}
+.icon-facebook2:before {
+  content: "\ea91";
 }
 .icon-instagram:before {
   content: "\ea92";

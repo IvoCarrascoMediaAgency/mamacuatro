@@ -2016,13 +2016,13 @@ textarea {
 }
 
 .food2{
-	display: flex;
+	display: grid;
+	grid-template-columns: auto;
 	
     
   
   
-    flex-wrap: wrap;
-    justify-content: space-around;
+    
 	
 }
 
@@ -2044,6 +2044,11 @@ textarea {
 	
 
 
+}
+
+.trip{
+	display: flex;
+	width: 300px;
 }
 
 .fotofoodie{
@@ -2151,6 +2156,7 @@ textarea {
 	height: 500px;
 	width: 340px;
 	margin: 0 auto 15px auto;
+	overflow: hidden;
 }
 
 
@@ -2163,6 +2169,178 @@ textarea {
 
 .face iframe{
 	margin: 0 auto;
+}
+
+/* Google Bussines */
+
+.trip4{
+	width: 90%;
+	margin: 20px auto;
+	max-width: 500px;
+}
+
+.trip span{
+	font-size: 1.2em;
+}
+
+.trip3 span{
+	font-size: 1.2em;
+
+}
+
+.headopinion
+{
+	display: grid;
+	grid-template-columns: auto;
+}
+.headopinion1{
+	width: 100%;
+}
+.headopinion1 h3{
+	font-family: Roboto;
+	color:#333;
+}
+.headopinion1 p{
+	font-family: Roboto;
+	color:#999;
+	font-size: 0.9em;
+}
+
+.estrellasop{
+	display: flex;
+	font-size: 1em;
+	margin: 10px auto 10px auto;
+}
+
+.estrellasop .opinion{
+	font-size: .8em;
+	color:#999;
+
+	
+	margin-left: 10px;
+	font-style: normal;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.estrellas{
+	font-size: 1em;
+	color: #ef6c00;
+	margin-right: 10px;
+
+}
+
+
+
+.estrellasop span{
+	color: #ef6c00;
+	font-size: 1em;
+}
+
+.escribeop{
+	
+	display: grid;
+	align-content: center;
+
+	margin-left: 20px;
+	background: #4d90fe;
+	/* padding: 2px; */
+	border-radius: 3px;
+	height: 20px;
+}
+
+
+.escribeop a{
+	text-decoration: none;
+	text-align: center;
+	font-family: Roboto;
+	display: block;
+    cursor: pointer;
+
+}
+
+.escribeop a span{
+	color: white;
+	
+	font-size: 0.8em;
+	margin: auto 5px;
+	
+}
+
+.avataropi{
+	margin-right: 5px;
+}
+
+.avatar1p{
+	display: grid;
+	grid-template-columns: auto auto;
+}
+
+.headopininstatis h4{
+	font-family: Roboto;
+	font-size: .8em;
+	color: black;
+
+}
+
+.head2op{
+	display: grid;
+	grid-template-columns: 60px auto;
+	margin: 5px 0 5px 0;
+}
+
+.head2op span{
+	margin: 0;
+    font-size: .7em;
+    color: #999;
+    text-align: left;
+	display: block;
+	margin-left: 5px;
+}
+
+.headopininstatis h5{
+	font-family: Roboto;
+	font-size: .7em;
+	color: #ef6c00;
+
+}
+
+.estrellassatis{
+	display: flex;
+
+}
+
+.estrellassatis span{
+	/* margin: 0 auto;
+	 */
+
+	 font-size: .8em;
+	margin: 5px 0 10px 0;
+	 color: #ef6c00;
+	 text-align: center;
+	 display: block;
+
+}
+
+
+.estrellassatis p{
+	margin: 5px 0 10px 0;
+	color:#999;
+	font-size: 0.8em;
+	margin-left: 5px;
+
+}
+
+.mensajesatis{
+	color: #222;
+	font-size: 0.8em;
+	text-align: justify;
+}
+
+.opinionsatis{
+	margin: 5px auto;
 }
 
 footer{
@@ -2267,6 +2445,9 @@ footer{
 
 
 @media screen and (min-width: 768px){
+
+
+
 
 
 	header{
@@ -2656,10 +2837,24 @@ height: 55px;
 	/* end */
 
 	
+.food2{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	
+    
+  
+  
+    
+	
+}
+
 
 .container2{
 	width: 100%;
 }
+
+
+
 
 
 
