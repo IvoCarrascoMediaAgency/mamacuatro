@@ -47,8 +47,6 @@ p{
 
 /*CABECERA  */
 
-
-
 .marca{
 	color: white;
 	text-shadow: 1px 2px #444;
@@ -2154,16 +2152,20 @@ textarea {
 
 .trip{
 	height: 500px;
-	width: 340px;
+	width: 100%;
 	margin: 0 auto 15px auto;
 	overflow: hidden;
+	display: grid;
+    justify-content: center;
 }
 
 
 .face{
 	height: 500px;
-	width: 340px;
+	width: 100%;
 	margin: 0 auto 15px auto;
+	display: grid;
+    justify-content: center;
 
 }
 
@@ -2850,19 +2852,14 @@ height: 55px;
 .food2{
 	display: grid;
 	grid-template-columns: auto auto auto;
-	
-    
-  
-  
-    
-	
+		
 }
 
 
 .container2{
 	width: 100%;
 }
-
+}
 
 
 
@@ -2986,4 +2983,6 @@ height: 55px;
 }
 
 }
-}
+
+
+
