@@ -718,6 +718,7 @@ p{
 	
 	
 		background-image: url("img/mamaclorindanigth.jpg");
+		
 	
 	
 	
@@ -927,7 +928,7 @@ p{
 
 
 .containers .slider  .slide1{
-	background: url(img/Cuy-Asado.png);
+	background: url(img/Cuy_Asado_Quito.png);
 	background-size: 100vw;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -940,7 +941,7 @@ p{
 }
 
 .containers2 .slider2  .slide1-1{
-	background: url(img/Cuy-Asado.png);
+	background: url(img/Cuy_Asado_Quito.png);
 	background-size: 100vw;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -955,7 +956,7 @@ p{
 
 
 .containers .slider  .slide2{
-	background: url(img/Langostinos.png);
+	background: url(img/langostinos_Quito.png);
 	background-size: 100vw;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -963,7 +964,7 @@ p{
 }
 
 .containers2 .slider2  .slide2-2{
-	background: url(img/Langostinos.png);
+	background: url(img/langostinos_Quito.png);
 	background-size: 100vw;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -972,7 +973,7 @@ p{
 
 
 .containers .slider  .slide3{
-	background: url(img/locrodequeso2.png);
+	background: url(img/Locro_De_Queso.png);
 	background-size: 100vw;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -980,7 +981,7 @@ p{
 }
 
 .containers2 .slider2  .slide3-3{
-	background: url(img/locrodequeso2.png);
+	background: url(img/Locro_De_Queso.png);
 	background-size: 100vw;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -996,7 +997,7 @@ p{
 }
 
 .containers2 .slider2 .slide4-4{
-	background: url(img/bandeja.png);
+	background: url(img/Bandeja-Mama-Clorinda.png);
 	background-size: 100vw;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1917,7 +1918,7 @@ input{
 
 
 .reservas{
-	background: url(img/reservas.png);
+	background: url(img/Reservas_Quito.png);
 	
     display: grid;
 
@@ -2532,7 +2533,7 @@ footer{
 }
 
 .containers .slider  .slide1{
-	background: url(img/Cuy-Asado.png);
+	background: url(img/Cuy_Asado_Quito.png);
 	background-size: 120vh;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -2545,7 +2546,7 @@ footer{
 }
 
 .containers .slider  .slide2{
-	background: url(img/Langostinos.png);
+	background: url(img/langostinos_Quito.png);
 	background-size: 120vh;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -2553,7 +2554,7 @@ footer{
 }
 
 .containers .slider  .slide3{
-	background: url(img/locrodequeso2.png);
+	background: url(img/Locro_De_Queso.png);
 	background-size: 100vh;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -2859,6 +2860,21 @@ height: 55px;
 .container2{
 	width: 100%;
 }
+
+
+.containers2 .slider2 .slide1-1{
+	background-size: 50vw;
+}
+.containers2 .slider2 .slide2-2{
+	background-size: 50vw;
+}
+.containers2 .slider2 .slide3-3{
+	background-size: 50vw;
+}
+.containers2 .slider2 .slide4-4{
+	background-size: 50vw;
+}
+
 }
 
 
